@@ -152,3 +152,8 @@ gem 'sprockets', '~> 2.10.1'
 # FIXME: Not-anymore-on-development
 # Gems that are with 1 or more years on the vacuum
 gem 'weekdays'
+
+gem 'capistrano', '~> 3.1.0'
+gem 'capistrano-bundler', '~> 1.1.2'
+gem 'capistrano-rails', '~> 1.1.1'
+gem 'capistrano-rvm', github: "capistrano/rvm"
